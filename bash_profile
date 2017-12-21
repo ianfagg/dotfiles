@@ -35,8 +35,8 @@ for file in ~/.{bash_aliases,bash_prompt}; do
 done;
 unset file;
 
-for DOTFILE in `find /Users/idff/Projects/.dotfiles/git`
-do
-	[ -f "$DOTFILE" ] && source "DOTFILE"
-done
+#for DOTFILE in `find /Users/idff/dotfiles/git`
+#do
+#	[ -f "$DOTFILE" ] && source "DOTFILE"
+#done
 
